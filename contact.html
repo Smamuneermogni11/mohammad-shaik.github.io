@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact - MAF Coders</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,27 +15,25 @@
     <a href="about.html">About</a>
     <a href="portfolio.html">Portfolio</a>
     <a href="courses.html">Courses</a>
-    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="active">Contact</a>
   </nav>
 </header>
 
-<section id="contact" class="fade-in">
-  <h2>Contact Me</h2>
-  <form action="https://formspree.io/f/yourformid" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="_replyto" placeholder="Your Email" required>
-    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-    <button type="submit">Send Message</button>
+<section class="fade-in">
+  <h1>Contact Me</h1>
+  <p>Reach out via email or LinkedIn:</p>
+  <form action="mailto:your.email@example.com" method="post" enctype="text/plain" class="contact-form">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="email" name="Email" placeholder="Your Email" required>
+    <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
   </form>
-  <p style="text-align:center; margin-top:20px;">
-    Connect with me on <a href="https://www.linkedin.com/in/mohammadabdulmuneermognishaik/" target="_blank">LinkedIn</a>
-  </p>
+  <p>Or connect with me on <a href="https://www.linkedin.com/in/mohammadabdulmuneermognishaik/" target="_blank">LinkedIn</a></p>
 </section>
 
 <footer>
-  &copy; 2026 MAF Coders | <a href="https://www.linkedin.com/in/mohammadabdulmuneermognishaik/" target="_blank">LinkedIn</a>
+  <p>© 2026 MAF Coders | <a href="https://www.linkedin.com/in/mohammadabdulmuneermognishaik/" target="_blank">LinkedIn</a></p>
 </footer>
 
-<script src="js/script.js"></script>
 </body>
 </html>
