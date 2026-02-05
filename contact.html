@@ -2,35 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - MAF Coders</title>
+  <title>Contact | MAF Coders</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <a href="index.html">Home</a> | 
-    <a href="courses.html">Courses</a> | 
+
+<header>
+  <img src="assets/logo.png" alt="MAF Coders Logo" class="logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="courses.html">Courses</a>
     <a href="contact.html">Contact</a>
-  </header>
+  </nav>
+</header>
 
-  <main>
-    <h1>Contact Us</h1>
-    <form action="https://formspree.io/f/yourformid" method="POST">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="_replyto" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p style="text-align:center; margin-top:20px;">
+    Connect on <a href="https://www.linkedin.com/in/mohammadabdulmuneermognishaik/" target="_blank">LinkedIn</a>
+  </p>
+</section>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="_replyto" required>
+<footer>
+  &copy; 2026 MAF Coders | <a href="https://www.linkedin.com/in/mohammadabdulmuneermognishaik/" target="_blank" style="color:white;">LinkedIn</a>
+</footer>
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-
-      <button type="submit">Send</button>
-    </form>
-  </main>
-
-  <footer>
-    <p>© 2026 MAF Coders</p>
-  </footer>
 </body>
 </html>
